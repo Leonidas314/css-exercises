@@ -1,6 +1,6 @@
 .N1,.Num3,.Num5{
     background-color: lightpink;
-    font-family: Verdana, sans-serif;
+    font-family: Verdana,"Deja Vu",sans-serif;
 }
 #N2 {
     color: blue;
@@ -8,11 +8,10 @@
 }
 .Num3{
     font-size: 24px;
-    font: bold;
 }
 #Num4{
     background-color: lightgreen;
     font-size: 24px;
-    font: bold;
+    font-weight: bold;
 }
 
