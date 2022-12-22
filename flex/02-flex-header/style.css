@@ -5,6 +5,9 @@
   flex-direction: row;
   justify-content: space-between;
 }
+.header div{
+  margin: auto;
+}
 
 .logo {
   font-size: 48px;
@@ -22,9 +25,8 @@ ul {
   display: flex;
   /* this removes the dots on the list items*/
   list-style-type: none;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  flex: 1;
 }
 
 a {
@@ -34,9 +36,11 @@ a {
   /* this removes the line under the links */
   text-decoration: none;
 }
-/*
-ul > .left-links{
-  justify-content: center;
+
+ul li{
+  margin: 25px;
 }
-.right-links{
+
+/*.right-links{
+  display: flex;
 }
