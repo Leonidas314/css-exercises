@@ -8,6 +8,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  padding-right: 35px;
 }
 
 .header{
@@ -59,10 +60,12 @@ input {
   gap: 10px;
 }
 .footer{
+  background-color: rgb(230, 230, 230);
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 .footer a{
   color: gray;
+  margin-left: ;
 }
